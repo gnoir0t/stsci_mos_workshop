@@ -1,0 +1,41 @@
+README file for the JWST pipeline Demo.
+
+
+Setting up your environment:
+First, download the material (jwst_pipeline_mos_workshop.ipynb, inputs, outputs_save) into your local directory where you will run the demo.
+
+
+Set up a new conda environment (here called 'jwst') with python 3.8 as follow:
+$ conda create -n jwst python=3.8
+
+
+Then, activate the environment and install the jwst pipeline:
+$ conda activate jwst
+$ pip install jwst==1.1.0
+
+
+Install 'jupyter' and 'pandas' in your new environment:
+$ pip install jupyter
+$ pip install pandas
+
+
+The last step before opening the jupyter notebook demo, is to set up the CRDS cache so that reference files can be directly downloaded from the server when running the different pipeline steps:
+$ export CRDS_PATH=$HOME/crds_cache
+$ export CRDS_SERVER_URL=https://jwst-crds.stsci.edu
+
+
+Then, the notebook can be opened with:
+$ jupyter notebook jwst_pipeline_mos_workshop.ipynb
+
+
+Before the workshop, make sure at the very least that you can successfully run the first cell in the notebook to verify that you can import all the necessary packages. Make the necessary installs if need be.
+
+
+See also: https://jwst-pipeline.readthedocs.io/en/latest/index.html
+Thanks.
+
+
+v1 - 2021 May 07 
+Gaël Noirot
+Postdoctoral Fellow
+Saint Mary's University
