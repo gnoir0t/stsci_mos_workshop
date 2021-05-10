@@ -4,8 +4,8 @@ README file for the JWST pipeline Demo.
 Setting up your environment:
 First, download the material (jwst_pipeline_mos_workshop.ipynb, inputs, outputs_saved) into your local directory where you will run the demo.
 jwst_pipeline_mos_workshop.ipynb can be found here: https://github.com/gnoir0t/stsci_mos_workshop
-inputs: path/to/inputs
-outputs_saved: path/to/outputs_saved
+inputs: https://stsci.app.box.com/s/yb4npoke3uzdlcdvzcgu5858hka41sku/file/808941511013
+outputs_saved: https://stsci.app.box.com/s/yb4npoke3uzdlcdvzcgu5858hka41sku/file/808962409172
 
 
 Set up a new conda environment (here called 'jwst') with python 3.8 as follow:
