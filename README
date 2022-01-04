@@ -34,8 +34,15 @@ $ jupyter notebook jwst_pipeline_mos_workshop.ipynb
 Before the workshop, make sure at the very least that you can successfully run the first cell in the notebook to verify that you can import all the necessary packages. Make the necessary installs if need be.
 
 
-See also: https://jwst-pipeline.readthedocs.io/en/latest/index.html
-Thanks.
+---
+Link to live demo (starts at 40min): https://bluejeans.com/playback/s/t5eCJ811L4VVAhZFSvZTxKVJkhzk02WglJjLDTCMEIiN7LkRQhSNnF0IVEaP5v4h
+
+
+See also:
+Official JWST reduction pipeline: https://jwst-pipeline.readthedocs.io/en/latest/index.html
+
+Link to STScI workshop website: https://www.stsci.edu/contents/events/stsci/2021/may/multi-object-spectroscopy-for-statistical-measures-of-galaxy-evolution 
+---
 
 
 2021 May 07 
